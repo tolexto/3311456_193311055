@@ -1,0 +1,80 @@
+name: untitled
+description: A new Flutter project.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+
+dependencies:
+
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  sidebarx: ^0.2.1+1
+  double_back_to_close_app: ^2.1.0
+  image_picker: ^0.8.4+11
+  flutter_native_splash: ^2.1.2+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^1.0.0
+  flutter_native_splash: ^2.1.2+1
+
+flutter_native_splash:
+  color: "#3DB8A3"
+  image: lib/models/splashlogo.png
+  color_dark: "3D4949"
+  android: true
+  ios: true
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+   - lib/models/Kafa.png
+   - lib/models/Karin.png
+   - lib/models/Ozel_Bolge.png
+   - lib/models/Bacak.png
+   - lib/models/beyin.png
+   - lib/models/goz.png
+   - lib/models/burun.png
+   - lib/models/agiz.png
+   - lib/models/boyun.png
+   - lib/models/kulak.png
+   - lib/models/KBB.png
+   - lib/models/kardiyoloji.png
+   - lib/models/gogusHastaliklari.png
+   - lib/models/dahiliye.png
+   - lib/models/BackGround.jpg
+   - lib/models/fotoyok.png
+   - lib/models/erkekAnatomi.png
+   - lib/models/kadinAnatomi.png
+   - lib/models/18.png
+   - lib/models/ik.png
+   - lib/models/mide.png
+
+
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+
