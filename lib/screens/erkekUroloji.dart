@@ -4,8 +4,6 @@ import '../widgets/NavBar.dart';
 class erkekUroloji extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    debugPrint("Göğüse tıkladınız!");
-
     return Scaffold(
         drawer: NavBar(),
         drawerEdgeDragWidth: 200,

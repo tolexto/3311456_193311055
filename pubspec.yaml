@@ -18,13 +18,12 @@ dependencies:
   image_picker: ^0.8.4+11
   flutter_native_splash: ^2.1.2+1
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-
   flutter_lints: ^1.0.0
-  flutter_native_splash: ^2.1.2+1
+
 
 flutter_native_splash:
   color: "#3DB8A3"

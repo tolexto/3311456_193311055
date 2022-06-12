@@ -6,11 +6,14 @@ import 'package:untitled/screens/dahiliye.dart';
 import 'package:untitled/screens/erkekUroloji.dart';
 import 'package:untitled/screens/fullGogus.dart';
 import 'package:untitled/screens/fullKafa.dart';
+import 'package:untitled/screens/girisYap.dart';
 import 'package:untitled/screens/kadinUro.dart';
+import 'package:untitled/screens/kayitOl.dart';
 import 'package:untitled/screens/ozelBolge.dart';
 import 'package:untitled/widgets/NavBar.dart';
 import 'package:flutter/material.dart';
 import 'dart:ui';
+import 'package:untitled/screens/welcome.dart';
 
 void main() => runApp(MyApp());
 
@@ -30,6 +33,8 @@ class MyApp extends StatelessWidget {
         '/dahiliye': (context) => dahil(),
         '/kulakburunbogaz': (context) => KBB(),
         '/ozelbolge': (context) => ozelBolge(),
+        '/girisYap': (context) => GirisYap(),
+        '/kayitOl': (context) => KayitOl(),
       },
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
@@ -40,7 +45,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
       ),
       themeMode: ThemeMode.system,
-      home: HomeScreen(),
+      home: Wellcome(),
     );
   }
 }
@@ -176,9 +181,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         Container(
                           height: 20, // Üst düzen boşluğu
                         ),
-                        /*FloatingActionButton(
-                          onPressed: ()=> debugPrint("tık"),
-                        ),*/
                         Container(
                           height: kafaBoyut,
                           alignment: Alignment.topCenter,
@@ -232,5 +234,10 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void sorguBacak() {
     debugPrint("Bacağa tıkladınız!");
+  }
+
+  void sorguGirisYap() {
+    Navigator.pushNamed(context, '/girisYap');
+    debugPrint("Giriş Yap'a tıkladınız!");
   }
 }

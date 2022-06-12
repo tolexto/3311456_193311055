@@ -113,7 +113,7 @@ class KBB extends StatelessWidget {
                                 textScaleFactor: 1.5,
                               ),
                               subtitle: Text(
-                                '',
+                                '0',
                                 textScaleFactor: 0.8,
                               ),
                             ),

@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/screens/erkekUroloji.dart';
-import 'package:untitled/screens/kadinUro.dart';
 import 'package:untitled/widgets/NavBar.dart';
 
 class ozelBolge extends StatefulWidget {
