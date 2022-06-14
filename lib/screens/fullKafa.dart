@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
-import 'KBB.dart';
 import 'package:untitled/widgets/NavBar.dart';
 
 class fullKafa extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-      debugPrint("Göğüse tıkladınız!");
     return Scaffold(
         drawer: NavBar(),
         drawerEdgeDragWidth: 200,
@@ -62,7 +60,7 @@ class fullKafa extends StatelessWidget {
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(Radius.circular(8.0))),
               child: InkWell(
-                onTap: () => print("Göze Tıkladınız!"),
+                onTap: () => Navigator.pushNamed(context, '/goz'),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: <Widget>[

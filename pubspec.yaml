@@ -17,6 +17,9 @@ dependencies:
   double_back_to_close_app: ^2.1.0
   image_picker: ^0.8.4+11
   flutter_native_splash: ^2.1.2+1
+  firebase_core: ^1.17.1
+  firebase_auth: ^3.3.19
+  cloud_firestore: ^3.1.17
 
 
 dev_dependencies:
@@ -61,6 +64,13 @@ flutter:
    - lib/models/18.png
    - lib/models/ik.png
    - lib/models/mide.png
+   - lib/models/1.png
+   - lib/models/2.png
+   - lib/models/3.png
+   - lib/models/4.png
+   - lib/models/5.png
+   - lib/models/6.png
+   - lib/models/7.png
 
 
 

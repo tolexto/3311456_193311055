@@ -7,20 +7,28 @@ import 'package:untitled/screens/erkekUroloji.dart';
 import 'package:untitled/screens/fullGogus.dart';
 import 'package:untitled/screens/fullKafa.dart';
 import 'package:untitled/screens/girisYap.dart';
+import 'package:untitled/screens/goz.dart';
 import 'package:untitled/screens/kadinUro.dart';
 import 'package:untitled/screens/kayitOl.dart';
 import 'package:untitled/screens/ozelBolge.dart';
+import 'package:untitled/screens/renkKorlugu.dart';
 import 'package:untitled/widgets/NavBar.dart';
 import 'package:flutter/material.dart';
 import 'dart:ui';
 import 'package:untitled/screens/welcome.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() => runApp(MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+
       initialRoute: '/',
       routes: {
         '/anasayfa': (context) => HomeScreen(),
@@ -35,6 +43,10 @@ class MyApp extends StatelessWidget {
         '/ozelbolge': (context) => ozelBolge(),
         '/girisYap': (context) => GirisYap(),
         '/kayitOl': (context) => KayitOl(),
+        '/wellcome': (context) => Wellcome(),
+        '/goz': (context) => Goz(),
+        '/renkkorlugu': (context) => renkKorlugu(),
+
       },
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
@@ -51,10 +63,10 @@ class MyApp extends StatelessWidget {
 }
 
 const MaterialColor arkaplanrenk =
-    const MaterialColor(0xFF3D4949, const <int, Color>{});
+const MaterialColor(0xFF3D4949, const <int, Color>{});
 
 const MaterialColor renk = const MaterialColor(0xFF3DB8A3, const <int, Color>{
-  50: const Color(0xFF6F6F6F), //Renk seçmek için kullandığım yer
+  50: const Color(0xFF3D3C3C), //Renk seçmek için kullandığım yer
   100: const Color(0xFF000000), //Renk seçmek için kullandığım yer
   200: const Color(0xFF3DB8A3), //Renk seçmek için kullandığım yer
   300: const Color(0xFF3D4949), //Renk seçmek için kullandığım yer

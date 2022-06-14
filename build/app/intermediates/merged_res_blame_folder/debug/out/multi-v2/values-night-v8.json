@@ -23,12 +23,12 @@
                 {
                     "source": "C:\\Users\\tolex\\StudioProjects\\untitled\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
-                        "startLines": "3,-1",
-                        "startColumns": "4,-1",
-                        "startOffsets": "172,-1",
-                        "endLines": "9,-1",
-                        "endColumns": "12,-1",
-                        "endOffsets": "582,-1"
+                        "startLines": "3,16",
+                        "startColumns": "4,4",
+                        "startOffsets": "172,924",
+                        "endLines": "9,18",
+                        "endColumns": "12,12",
+                        "endOffsets": "582,1088"
                     },
                     "to": {
                         "startLines": "3,10",

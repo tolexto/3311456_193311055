@@ -81,6 +81,8 @@ class _NavBarState extends State<NavBar> {
       );
     }
 
+    ;
+
     String isim = ("Tuna");
     int yas = (21);
 
@@ -100,7 +102,8 @@ class _NavBarState extends State<NavBar> {
                     onTap: () => profilFotograf(),
                     child: image != null
                         ? Image.file(image!)
-                        : Image.asset('lib/models/fotoyok.png', fit: BoxFit.fill)),
+                        : Image.asset('lib/models/fotoyok.png',
+                            fit: BoxFit.fill)),
               ),
             ),
             decoration: BoxDecoration(
