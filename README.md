@@ -19,8 +19,8 @@ https://drive.google.com/file/d/1rziZdCUHFJe-IVpfQW86LerGXy50BbiH/view?usp=shari
 
 
 #>Bilgilendirme<
-Bu proje Selçuk Üniversitesi Bilgisayar Mühendisliği Bölümü 3311456 numaralı Mobil Programlama dersinin vize proje ödevidir. 
+Bu proje Selçuk Üniversitesi Bilgisayar Mühendisliği Bölümü 3311456 numaralı Mobil Programlama dersinin final proje ödevidir. 
 
 >15.06.2022<
 
-"# 3311456_193311055" 
+# TUNA MEYDAN
