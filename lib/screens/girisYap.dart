@@ -109,25 +109,43 @@ class GirisYap extends StatelessWidget {
                             textStyle: const TextStyle(fontSize: 60),
                           ),
                           onPressed: () {
-                            _authService
-                                .signIn(_emailController.text,
-                                    _passwordController.text)
-                                .then((value) {
-                              return Navigator.pushNamed(context, '/anasayfa');
-                            });
-                            final snackBar = SnackBar(
-                              //TOAST BİLDİRİMİ
-                              content: const Text(
-                                'Giriş Başarılı!',
-                                style: TextStyle(
-                                    color: Colors.white, fontSize: 20),
-                                textAlign: TextAlign.center,
-                              ),
-                              duration: Duration(milliseconds: 850),
-                              backgroundColor: Colors.blueGrey,
-                            );
-                            ScaffoldMessenger.of(context)
-                                .showSnackBar(snackBar);
+                            if (_emailController.text != null ||
+                                _passwordController.text != null) {
+                              _authService
+                                  .signIn(_emailController.text,
+                                      _passwordController.text)
+                                  .then((value) {
+                                return Navigator.pushNamed(
+                                    context, '/anasayfa');
+                              });
+                              final snackBar = SnackBar(
+                                //TOAST BİLDİRİMİ
+                                content: const Text(
+                                  'Giriş Başarılı!',
+                                  style: TextStyle(
+                                      color: Colors.white, fontSize: 20),
+                                  textAlign: TextAlign.center,
+                                ),
+                                duration: Duration(milliseconds: 850),
+                                backgroundColor: Colors.blueGrey,
+                              );
+                              ScaffoldMessenger.of(context)
+                                  .showSnackBar(snackBar);
+                            } else {
+                              final snackBar = SnackBar(
+                                //TOAST BİLDİRİMİ
+                                content: const Text(
+                                  'Giriş Başarısız!',
+                                  style: TextStyle(
+                                      color: Colors.white, fontSize: 20),
+                                  textAlign: TextAlign.center,
+                                ),
+                                duration: Duration(milliseconds: 850),
+                                backgroundColor: Colors.blueGrey,
+                              );
+                              ScaffoldMessenger.of(context)
+                                  .showSnackBar(snackBar);
+                            }
                           },
                           child: const Text('Giriş Yap!'),
                         ),
