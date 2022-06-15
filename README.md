@@ -1,4 +1,4 @@
-# CEPTE MUAYENE V.1.0.1 (GELİŞTİRME AŞAMASINDA)
+# CEPTE MUAYENE V.1.0.1 (GELİŞTİRME AŞAMASINDA) DEPLOY EDİLMİŞTİR!
 
 #>Uygulama Hakkında: 
 Basit sayılabilecek, evde çözümü mümkün olan rahatsızlıklar için uygulama üzerinden muayene projesi.
