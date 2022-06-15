@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "324326037477",
+    "firebase_url": "https://ceptemuayene-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "ceptemuayene",
+    "storage_bucket": "ceptemuayene.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324326037477:android:6a272f5a0fd72db527c10c",
+        "android_client_info": {
+          "package_name": "com.example.untitled"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324326037477-dh8tvl8ut7a7i31bvena7v67144vrvui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnd6hdDkgHhWWPvciVwxqclHkPdtFTx8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324326037477-dh8tvl8ut7a7i31bvena7v67144vrvui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
