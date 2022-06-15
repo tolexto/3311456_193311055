@@ -4,12 +4,14 @@
 Basit sayılabilecek, evde çözümü mümkün olan rahatsızlıklar için uygulama üzerinden muayene projesi.
 
 #>Kullanım:
+--
     - Uygulamaya girin ve karşınıza çıkan vücut görseli üzerinden rahatsızlık yaşadığınız bölgeye dokunun.
 
     - Bölgenizi seçtikten sonra polikinlik seçimi yapın.
 
     - Sadece renk körü testi eklendi.
-    #>APK dosyası:
+    
+   - #>APK dosyası:
 https://drive.google.com/file/d/1rziZdCUHFJe-IVpfQW86LerGXy50BbiH/view?usp=sharing
 
 
