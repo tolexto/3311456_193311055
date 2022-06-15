@@ -17,16 +17,16 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      throw UnsupportedError(
-        'DefaultFirebaseOptions have not been configured for web - '
-        'you can reconfigure this by running the FlutterFire CLI again.',
-      );
+      return web;
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        return ios;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for ios - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.macOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for macos - '
@@ -49,6 +49,17 @@ class DefaultFirebaseOptions {
     }
   }
 
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: 'AIzaSyAyZO4Dx-J_PhUD6npA9pZ0A_4e14bvgLg',
+    appId: '1:324326037477:web:7d02954edf4294ea27c10c',
+    messagingSenderId: '324326037477',
+    projectId: 'ceptemuayene',
+    authDomain: 'ceptemuayene.firebaseapp.com',
+    databaseURL: 'https://ceptemuayene-default-rtdb.europe-west1.firebasedatabase.app',
+    storageBucket: 'ceptemuayene.appspot.com',
+    measurementId: 'G-TDL6PSHW6S',
+  );
+
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyDnd6hdDkgHhWWPvciVwxqclHkPdtFTx8U',
     appId: '1:324326037477:android:6a272f5a0fd72db527c10c',
@@ -56,16 +67,5 @@ class DefaultFirebaseOptions {
     projectId: 'ceptemuayene',
     databaseURL: 'https://ceptemuayene-default-rtdb.europe-west1.firebasedatabase.app',
     storageBucket: 'ceptemuayene.appspot.com',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCoxpkZTU4b70e3BOFnDxAomT1Um3q-GCg',
-    appId: '1:324326037477:ios:db31a00c8d9da56a27c10c',
-    messagingSenderId: '324326037477',
-    projectId: 'ceptemuayene',
-    databaseURL: 'https://ceptemuayene-default-rtdb.europe-west1.firebasedatabase.app',
-    storageBucket: 'ceptemuayene.appspot.com',
-    iosClientId: '324326037477-nfn6b862holufgvkrdi81oq1njkfio80.apps.googleusercontent.com',
-    iosBundleId: 'com.example.untitled',
   );
 }
