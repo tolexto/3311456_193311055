@@ -1,17 +1,24 @@
-# untitled
+# CEPTE MUAYENE V.1.0.1 (GELİŞTİRME AŞAMASINDA)
 
-A new Flutter project.
+#>Uygulama Hakkında: 
+Basit sayılabilecek, evde çözümü mümkün olan rahatsızlıklar için uygulama üzerinden muayene projesi.
 
-## Getting Started
+#>Kullanım:
+    - Uygulamaya girin ve karşınıza çıkan vücut görseli üzerinden rahatsızlık yaşadığınız bölgeye dokunun.
 
-This project is a starting point for a Flutter application.
+    - Bölgenizi seçtikten sonra polikinlik seçimi yapın.
 
-A few resources to get you started if this is your first Flutter project:
+    - Sadece renk körü testi eklendi.
+    #>APK dosyası:
+https://drive.google.com/file/d/1rziZdCUHFJe-IVpfQW86LerGXy50BbiH/view?usp=sharing
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
+#>Bilgilendirme<
+Bu proje Selçuk Üniversitesi Bilgisayar Mühendisliği Bölümü 3311456 numaralı Mobil Programlama dersinin vize proje ödevidir. 
+
+>15.06.2022<
+
 "# 3311456_193311055" 
