@@ -12,8 +12,7 @@ Basit sayılabilecek, evde çözümü mümkün olan rahatsızlıklar için uygul
     - Sadece renk körü testi eklendi.
     
    - #>APK dosyası:
-https://drive.google.com/file/d/1rziZdCUHFJe-IVpfQW86LerGXy50BbiH/view?usp=sharing
-
+https://drive.google.com/file/d/1jcHdN25G1qkWQl65EyBnHn1XohyqexnD/view?usp=sharing
 
 
 
